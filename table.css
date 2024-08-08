@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    box-sizing: border-box;
+  }
+  
+.body {
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    align-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  
+  }
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  .h3{
+    color: antiquewhite;
+    background-color: #7a7777;
+  
+  }
+  table{
+    width: 85%;
+  }
+  @media (max-width: 969px) {
+    .card-wrapper {
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .card-wrapper {
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 100%;
+      margin: 20px;
+    }
+  }
+  
