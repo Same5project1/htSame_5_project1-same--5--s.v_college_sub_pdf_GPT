@@ -60,6 +60,7 @@
   table{
     width: 85%;
     height: 100%;
+    scroll-behavior: auto;
   }
   @media (max-width: 969px) {
     .card-wrapper {
